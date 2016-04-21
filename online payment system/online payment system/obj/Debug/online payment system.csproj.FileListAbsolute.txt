@@ -1,0 +1,11 @@
+F:\HEMA\college notes\project\new\online payment system\online payment system\bin\online payment system.dll
+F:\HEMA\college notes\project\new\online payment system\online payment system\bin\online payment system.pdb
+F:\HEMA\college notes\project\new\online payment system\online payment system\obj\Debug\online payment system.csprojResolveAssemblyReference.cache
+F:\HEMA\college notes\project\new\online payment system\online payment system\obj\Debug\online payment system.dll
+F:\HEMA\college notes\project\new\online payment system\online payment system\obj\Debug\online payment system.pdb
+F:\HEMA\college notes\project\Degree project\new\online payment system\online payment system\bin\online payment system.dll
+F:\HEMA\college notes\project\Degree project\new\online payment system\online payment system\bin\online payment system.pdb
+F:\HEMA\college notes\project\Degree project\new\online payment system\online payment system\obj\Debug\online payment system.csprojResolveAssemblyReference.cache
+F:\HEMA\college notes\project\Degree project\new\online payment system\online payment system\obj\Debug\online payment system.dll
+F:\HEMA\college notes\project\Degree project\new\online payment system\online payment system\obj\Debug\online payment system.pdb
+F:\HEMA\college notes\project\Degree project\new\online payment system\online payment system\bin\online payment system.dll.config

@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="online_payment_system.pages.Home1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<title>Pay online</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="~/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="~/css/coin-slider.css" />
+<script type="text/javascript" src="<%=ResolveUrl("~/js/cufon-yui.js")%>" ></script>
+<script type="text/javascript" src="<%=ResolveUrl("~/js/cufon-georgia.js")%>"></script>
+<script type="text/javascript" src="<%=ResolveUrl("~/js/jquery-1.4.2.min.js")%>"></script>
+<script type="text/javascript" src="<%=ResolveUrl("~/js/script.js")%>"></script>
+<script type="text/javascript" src="<%=ResolveUrl("~/js/coin-slider.min.js")%>"></script>
+    <style type="text/css">
+        .auto-style1 {
+            margin: 0 auto;
+            padding: 0;
+            width: 955px;
+            background: url(../images/content_bg.gif) repeat-y 680px top;
+            height: 575px;
+        }
+        .auto-style2 {
+            height: 283px;
+        }
+        .auto-style3 {
+            width: 188px;
+            margin-left: 25;
+        }
+    </style>
+</head>
+<body style="margin-right: 0">
+    <form id="form1" runat="server">
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="http://kskvku.digitaluniversity.ac/">KSKV<span> Kachchh University</span> <small>Pay Online</small></a></h1>
+      </div>
+      <div class="searchform">
+      </div>
+      <div class="clr"></div>
+        
+      <div class="menu_nav">
+          <asp:ContentPlaceHolder ID="menu" runat="server"> 
+
+              <ul>
+                  <li><a href="Home.aspx"><span>Home Page</span></a></li>
+                  <li><a   href="FeesDetail.aspx"><span>Fees Detail</span></a></li>
+                  <li><a  href="login.aspx"><span>Payment</span></a></li>
+                  <li ><a  href="Help.aspx"><span>Help</span></a></li>
+                  <li><a  href="login.aspx"><span>Log In</span></a></li>
+              </ul>
+
+       </asp:ContentPlaceHolder> 
+
+      </div>
+       
+      <div class="clr"></div>
+      <div class="slider">
+        <div id="coin-slider"> <a href="#"><img src="~/images/slide1.jpg" width="960" height="360" alt="" runat="server"/></a> <a href="#"><img src="~/images/slide2.jpg" width="960" height="360" alt="" runat="server"/></a> <a href="#"><img src="~/images/slide3.jpg" width="960" height="360" alt="" runat="server"/></a> </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+     
+  <div class="content">
+      
+    <div class="auto-style1">
+           
+      <div class="mainbar">
+          
+        <div class="article">
+        <asp:ContentPlaceHolder ID="cont" runat="server"> 
+          <h2 class="auto-style2">Home</h2>
+           
+            
+                
+          <div class="clr"></div>
+          <div class="clr"></div>
+          </asp:ContentPlaceHolder> 
+        </div>
+                
+      </div>
+        
+       
+      <div class="sidebar" style="width: 202px; height: 216px">
+          
+        <div class="gadget">
+          <h2 class="star"><span>Pay</span> Online</h2>
+          <div class="clr"></div>
+        <asp:ContentPlaceHolder ID="submenu" runat="server"> 
+            <ul class="sb_menu">
+                <li ><a href="Home.aspx">Home</a></li>
+                <li class="auto-style3"><a href="FeesDetail.aspx">Fees Detail</a></li>
+                <li><a href="login.aspx">Payment</a></li>
+                <li><a href="Help.aspx">Help</a></li>
+                <li><a href="login.aspx">Log In</a></li>
+            </ul>
+              </asp:ContentPlaceHolder> 
+        </div>
+               
+      </div>
+                
+      <div class="clr"></div>
+        
+    </div>
+     
+  </div>
+       
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="col c2">
+        <h2><span>Services</span> Overview</h2>
+        
+        <p>This website allow to pay the tuition fee online to universityThis website allow to pay the tuition fees online to KSKV Kachchh university.</p>
+      </div>
+      <div class="col c3">
+        <h2><span>Contact Us </span></h2>       <p>Krantiguru Shyamji Krishna Verma Kachchh University</p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">Copyright &copy; . All Rights Reserved</p>
+    </div>
+  </div>
+</div>
+  </form>
+</body>
+</html>

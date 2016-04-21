@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="design.master.cs" Inherits="online_payment_system.pages.design" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin</title>
+    <link rel="stylesheet" type="text/css" href="~/styles/StyleSheet.css"/>
+    <asp:ContentPlaceHolder ID="adminid" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: small;
+        }
+        .auto-style2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+	    <div id="banner">
+            <br />
+        </div>
+        <div id="navigation">
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+            
+                 <ul id="nav">
+                     <li class="auto-style1"><a href="student account.aspx"  >Student detail</a></li>
+                     <li class="auto-style1"><a href="Paid details.aspx" >Fees detail</a></li>
+                     <li><a href= "Budget details.aspx">Head detail</a></li>
+                     <li><a href="#" >Sign Out</a></li>
+                     
+                 </ul>
+                 </asp:ContentPlaceHolder>
+        </div>
+              
+        <div id="content_area">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+                 
+   
+        <div id="#sidebar">
+        </div>
+            
+        
+        <div id="footer">
+            <p class="auto-style2">All Rights reserved.</p>
+        </div>
+         </div>           
+ 
+  
+    </form>
+</body>
+</html>
+

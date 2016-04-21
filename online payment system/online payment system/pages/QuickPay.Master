@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="QuickPay.master.cs" Inherits="online_payment_system.pages.QuickPay" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Quick Pay</title>
+    <link rel="stylesheet" type="text/css" href="~/styles/quickpay.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+            color: #FFFFCC;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div id="wrapper">
+       <div id="banner" class="auto-style1">
+           
+           <strong>
+           <br />
+           <br />
+           PAY ONLINE</strong></div>
+       
+       <div id="container_area">
+           <div class="ex">The picture above is 250px wide.
+The total width of this element is also 250px.</div>
+           </div>
+       <div id="footer">
+           <p>All Rights Are Reserved</p>
+           </div>
+       </div>
+    </form>
+</body>
+</html>
